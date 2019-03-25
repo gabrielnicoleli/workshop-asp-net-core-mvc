@@ -52,6 +52,8 @@ namespace SalesWebMVC
 
             //Adiciona a dependencia do departmentservice
             services.AddScoped<DepartmentService>();
+
+            services.AddScoped<SalesRecordService>();
         }
 
         //incluir dependencias do mysql 
